@@ -1,7 +1,9 @@
 const express = require('express');
 const createActivity = require('./controllers/createActivity');
+const getActivities = require('./controllers/getActivity');
+
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.listen(3000, () => console.log('Micro-life app listening on port 3000'));
 app.post('/profile/activities', createActivity);
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.get('/profile/activities', getActivities);
