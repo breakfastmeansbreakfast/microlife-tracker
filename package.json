@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/breakfastmeansbreakfast/microlife-tracker/issues"
   },
-  "homepage": "https://github.com/breakfastmeansbreakfast/microlife-tracker#readme"
+  "homepage": "https://github.com/breakfastmeansbreakfast/microlife-tracker#readme",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-mcr-codes": "^1.2.0",
+    "eslint-plugin-babel": "^5.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "node-mocks-http": "^1.7.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "uuid": "^3.3.2"
+  }
 }
