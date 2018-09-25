@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const uuid = require('uuid/v5');
+const uuid = require('uuid/v4');
 
 
 const createActivity = (req, res) => {

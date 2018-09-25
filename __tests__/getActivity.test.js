@@ -38,6 +38,10 @@ describe('getActivities', () => {
       done();
     });
   });
+  it('gets a single user activity', done => {
+    expect.assertions(2);
+    done();
+  });
   afterEach(() => {
     fs.writeFileSync(filePath, '{"profile":{"activities":[]}}');
   });
